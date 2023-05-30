@@ -9,3 +9,9 @@ try {
 } catch (err) {
   console.log(err);
 }
+
+function concat(a, b) {
+  console.log(a + b);
+}
+
+concat(4, 5);
