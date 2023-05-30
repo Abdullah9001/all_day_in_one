@@ -34,3 +34,15 @@ A();
 f = 56;
 
 console.log(f);
+
+// this section
+const person = {
+  firstName: "Abdullah",
+  lastName: "Jubayer",
+  id: 645874,
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
+
+console.log(person.fullName());
