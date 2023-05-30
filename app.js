@@ -15,3 +15,16 @@ function concat(a, b) {
 }
 
 concat(4, 5);
+
+let x = 5;
+x = 10;
+console.log(x);
+
+function A() {
+  let x;
+  x = 10;
+
+  console.log(x);
+}
+
+A();
