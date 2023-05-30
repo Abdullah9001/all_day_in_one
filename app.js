@@ -1,3 +1,5 @@
+// ("use strict");
+
 const string = "Hello, my name is John Doe.";
 
 const nameRegex = string.search(/john/i);
@@ -28,3 +30,7 @@ function A() {
 }
 
 A();
+
+f = 56;
+
+console.log(f);
