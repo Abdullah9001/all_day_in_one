@@ -43,6 +43,23 @@ const person = {
   fullName: function () {
     return this.firstName + " " + this.lastName;
   },
+  getFullname: function () {
+    return this.fullName();
+  },
 };
 
-console.log(person.fullName());
+console.log(person.getFullname());
+
+const person1 = {
+  fullName2: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
+
+const person2 = {
+  firstName: "Jubayer",
+  lastName: "Khan",
+  id: 645874,
+};
+
+console.log(person1.fullName2.call(person2));
