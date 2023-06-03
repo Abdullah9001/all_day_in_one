@@ -6,3 +6,4 @@ console.log(number.at());
 console.log(number.pop());
 console.log(number.push(10));
 console.log(number.reverse());
+console.log(number.shift());
