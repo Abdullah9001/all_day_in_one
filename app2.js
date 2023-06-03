@@ -8,3 +8,4 @@ console.log(number.push(10));
 console.log(number.reverse());
 console.log(number.shift());
 console.log(number.slice(1, 5));
+console.log(number.sort());
