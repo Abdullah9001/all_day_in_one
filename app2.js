@@ -4,3 +4,4 @@ console.dir(number);
 console.log(number.at());
 // console.log(number.concat(numbers));
 console.log(number.pop());
+console.log(number.push(10));
