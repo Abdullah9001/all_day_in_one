@@ -10,3 +10,4 @@ console.log(number.shift());
 console.log(number.slice(1, 5));
 console.log(number.sort());
 console.log(number.length);
+console.log(number.unshift(9));
