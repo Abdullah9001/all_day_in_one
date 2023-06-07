@@ -113,3 +113,26 @@ const persons2 = new Person("Rakib", 24);
 persons1.play("well");
 persons2.play("bad");
 // Javscript class lesson done
+
+// Javscript Json Format
+const jsonData = `{
+  "employees":[
+  {"name": "John", "age": 25},
+  {"name": "Emily", "age": 30},
+  {"name": "Michael", "age": 40},
+  {"name": "Sophia", "age": 35}
+]}`;
+
+const obj = JSON.parse(jsonData);
+console.log(obj.employees);
+
+const jsonData2 = [
+  { name: "John", age: 25 },
+  { name: "Emily", age: 30 },
+  { name: "Michael", age: 40 },
+  { name: "Sophia", age: 35 },
+];
+
+const json = JSON.stringify(jsonData2);
+
+console.log(json);
