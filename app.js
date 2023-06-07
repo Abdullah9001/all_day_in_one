@@ -69,3 +69,6 @@ const helloWorld = () => {
 };
 
 console.log(helloWorld());
+
+// you can also print like this way
+const helloPrint = () => "Hello World";
