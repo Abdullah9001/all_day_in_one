@@ -63,3 +63,9 @@ const person2 = {
 };
 
 console.log(person1.fullName2.call(person2));
+
+const helloWorld = () => {
+  return "Hello World";
+};
+
+console.log(helloWorld());
