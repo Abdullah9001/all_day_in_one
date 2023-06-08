@@ -16,3 +16,4 @@ console.log(number.unshift(9));
 console.log(numbers.pop());
 console.log(numbers.push(10));
 console.log(numbers.reverse());
+console.log(numbers.shift());
