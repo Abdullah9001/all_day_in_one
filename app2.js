@@ -15,3 +15,4 @@ console.log(number.unshift(9));
 // aonothe paknami
 console.log(numbers.pop());
 console.log(numbers.push(10));
+console.log(numbers.reverse());
