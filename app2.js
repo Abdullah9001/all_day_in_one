@@ -11,5 +11,7 @@ console.log(number.slice(1, 5));
 console.log(number.sort());
 console.log(number.length);
 console.log(number.unshift(9));
+
+// aonothe paknami
 console.log(numbers.pop());
 console.log(numbers.push(10));
