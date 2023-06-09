@@ -17,3 +17,4 @@ console.log(numbers.pop());
 console.log(numbers.push(10));
 console.log(numbers.reverse());
 console.log(numbers.shift());
+console.log(numbers.slice(1, 3));
