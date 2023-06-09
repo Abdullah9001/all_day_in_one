@@ -18,3 +18,4 @@ console.log(numbers.push(10));
 console.log(numbers.reverse());
 console.log(numbers.shift());
 console.log(numbers.slice(1, 3));
+console.log(numbers.sort());
