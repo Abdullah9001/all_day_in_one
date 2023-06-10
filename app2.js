@@ -20,3 +20,5 @@ console.log(numbers.shift());
 console.log(numbers.slice(1, 3));
 console.log(numbers.sort());
 console.log(numbers.length);
+
+//another paknami shuru
