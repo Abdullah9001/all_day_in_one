@@ -22,3 +22,4 @@ console.log(numbers.sort());
 console.log(numbers.length);
 
 //another paknami shuru
+console.log(numbers.unshift(9));
