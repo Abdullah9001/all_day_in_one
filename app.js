@@ -223,3 +223,14 @@ console.log(y);
 
 const a = new String("Bangladesh");
 console.dir(a);
+
+const person5 = {
+  firstName: "Abdullah",
+  lastName: "Jubayer",
+  id: 3276538,
+  fullNames: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
+
+console.log(person5.fullNames());
