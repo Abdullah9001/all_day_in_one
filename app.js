@@ -234,3 +234,19 @@ const person5 = {
 };
 
 console.log(person5.fullNames());
+
+const person6 = {
+  name: "Abdullah ",
+  age: 22,
+  city: " Bangladeash",
+};
+
+document.getElementById("demo").innerHTML =
+  person6.name + " is " + person6.age + " years old";
+
+let text = "";
+for (let f in person6) {
+  text += person6[f];
+}
+
+document.getElementById("demo2").innerHTML = text;
