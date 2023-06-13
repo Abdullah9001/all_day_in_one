@@ -229,7 +229,7 @@ const person5 = {
   lastName: "Jubayer",
   id: 3276538,
   fullNames: function () {
-    return this.firstName + " " + this.lastName;
+    return (this.firstName + " " + this.lastName).toUpperCase();
   },
 };
 
