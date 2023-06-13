@@ -182,6 +182,8 @@ const person3 = {
 
 person3.country = "Bangladesh";
 
+delete person3.age;
+
 console.log(person3);
 
 const person4 = {
@@ -196,3 +198,28 @@ for (let x in person4) {
 }
 
 console.log(txt);
+
+const myObject = {
+  name: "Abdullah",
+  age: 22,
+  cars: [
+    { name: " Volbo", model: [" rome", " dilli", " soudi"] },
+    { name: " BMW", model: [" wr3", " bc5", " d7"] },
+    { name: " Maruti", model: [" s123", " dil6", " soudi10"] },
+  ],
+};
+console.dir(myObject);
+
+let y = "";
+
+for (let i in myObject.cars) {
+  y += myObject.cars[i].name;
+  for (let j in myObject.cars[i].model) {
+    y += myObject.cars[i].model[j];
+  }
+}
+
+console.log(y);
+
+const a = new String("Bangladesh");
+console.dir(a);
