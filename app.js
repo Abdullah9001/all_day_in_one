@@ -268,3 +268,25 @@ document.getElementById("demo4").innerHTML = textt;
 
 let stringify = JSON.stringify(person7);
 console.log(stringify);
+
+const person8 = {
+  name: "Abdullah",
+  age: 22,
+  language: "en",
+  get fullnamess() {
+    return this.name + " " + this.age;
+  },
+};
+
+console.log(person8.fullnamess);
+
+const person9 = {
+  name: "Abdullah",
+  age: 22,
+  language: "",
+  set lang(a) {
+    this.language = a;
+  },
+};
+
+console.log((person9.lang = "English"));
