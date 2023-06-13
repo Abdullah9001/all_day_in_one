@@ -183,3 +183,16 @@ const person3 = {
 person3.country = "Bangladesh";
 
 console.log(person3);
+
+const person4 = {
+  fName: "Abdullah",
+  lName: " Jubayer ",
+  age: 22,
+};
+
+let txt = "";
+for (let x in person4) {
+  txt += person4[x];
+}
+
+console.log(txt);
