@@ -289,4 +289,6 @@ const person9 = {
   },
 };
 
-console.log((person9.lang = "English"));
+person9.lang = "English";
+
+console.log(person9);
