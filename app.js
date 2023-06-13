@@ -172,3 +172,14 @@ switch (day) {
 console.log("Today is " + dayName);
 
 // done for today
+
+// javascript object
+
+const person3 = {
+  name: "Abdullah",
+  age: 22,
+};
+
+person3.country = "Bangladesh";
+
+console.log(person3);
