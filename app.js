@@ -250,3 +250,18 @@ for (let f in person6) {
 }
 
 document.getElementById("demo2").innerHTML = text;
+
+const person7 = {
+  name: "Abdullah",
+  age: 22,
+  city: "Bangladeash",
+};
+
+const objToArray = Object.values(person7);
+
+let textt = "";
+for (let a of objToArray) {
+  textt += a;
+}
+document.getElementById("demo3").innerHTML = objToArray;
+document.getElementById("demo4").innerHTML = textt;
