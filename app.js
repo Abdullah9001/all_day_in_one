@@ -265,3 +265,6 @@ for (let a of objToArray) {
 }
 document.getElementById("demo3").innerHTML = objToArray;
 document.getElementById("demo4").innerHTML = textt;
+
+let stringify = JSON.stringify(person7);
+console.log(stringify);
