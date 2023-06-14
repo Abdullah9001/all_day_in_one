@@ -330,3 +330,43 @@ console.log(BioData2());
 const ka = new BioData2("Kawsar", 24, "Sirajganj.");
 console.log(ka);
 console.log(ka.address());
+
+const number1 = [1, 2, 3, 4, 5, 6];
+for (n of number1) {
+  console.log(n);
+}
+
+const number2 = {
+  one: 1,
+  two: 2,
+  three: 3,
+};
+
+for (n in number2) {
+  console.log(n);
+}
+
+console.dir(number1);
+console.dir(number2);
+
+const myNumbers = {};
+myNumbers[Symbol.iterator] = function () {
+  let n = 0;
+  let done = false;
+  return {
+    next() {
+      n += 10;
+      if (n == 100) {
+        done = true;
+      }
+      return {
+        value: n,
+        done: done,
+      };
+    },
+  };
+};
+
+for (let num of myNumbers) {
+  console.log(num);
+}
