@@ -324,6 +324,7 @@ function BioData2(name, age, city) {
     );
   };
 }
+console.log(BioData2());
 
 const ka = new BioData2("Kawsar", 24, "Sirajganj.");
 console.log(ka);
