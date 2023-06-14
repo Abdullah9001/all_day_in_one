@@ -301,3 +301,30 @@ console.log(person9);
 console.log(person9.fullNames);
 
 // constractor object
+function BioData(first, last, age, city) {
+  (this.fName = first),
+    (this.lName = last),
+    (this.age = age),
+    (this.city = city),
+    (this.fullName = function () {
+      return this.fName + " " + this.lName;
+    });
+}
+
+const aj = new BioData("Abdullah", "Jubayer", 22, "Bngladesh");
+
+console.log(aj);
+console.log(aj.fullName());
+
+function BioData2(name, age, city) {
+  (this.name = name), (this.age = age), (this.city = city);
+  this.address = function () {
+    return (
+      this.name + " is " + this.age + " years old and he lives in " + this.city
+    );
+  };
+}
+
+const ka = new BioData2("Kawsar", 24, "Sirajganj.");
+console.log(ka);
+console.log(ka.address());
