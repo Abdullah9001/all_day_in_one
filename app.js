@@ -281,14 +281,23 @@ const person8 = {
 console.log(person8.fullnamess);
 
 const person9 = {
-  name: "Abdullah",
+  fNames: "Abdullah",
+  lNames: "Jubayer",
   age: 22,
   language: "",
   set lang(a) {
     this.language = a;
   },
 };
+Object.defineProperty(person9, "fullNames", {
+  get: function () {
+    return this.fNames + " " + this.lNames;
+  },
+});
 
 person9.lang = "English";
 
 console.log(person9);
+console.log(person9.fullNames);
+
+// constractor object
