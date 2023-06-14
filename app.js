@@ -370,3 +370,10 @@ myNumbers[Symbol.iterator] = function () {
 for (let num of myNumbers) {
   console.log(num);
 }
+
+const letter = new Set(["a", "b", "c", "d"]);
+let texts = "";
+letter.forEach(function (value) {
+  texts += value;
+});
+console.log(texts);
