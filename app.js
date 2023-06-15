@@ -383,8 +383,14 @@ for (let d of leeterItterator) {
   console.log(d);
 }
 
+// just function
+function func(a, b) {
+  return a + b;
+}
+console.log(func(984, 598));
+
 // function expresson
-const func = function (a, b) {
+const func1 = function (a, b) {
   return a + b;
 };
-console.log(func(5, 6));
+console.log(func1(5, 6));
