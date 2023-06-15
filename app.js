@@ -408,3 +408,8 @@ var func3 = function (a, b) {
   return a / b;
 };
 console.log(func3(80, 10));
+
+// you can write function this way
+(function func4(a, b) {
+  console.log(a - b);
+})(20, 15);
