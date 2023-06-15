@@ -382,3 +382,9 @@ const leeterItterator = letter.values();
 for (let d of leeterItterator) {
   console.log(d);
 }
+
+// function expresson
+const func = function (a, b) {
+  return a + b;
+};
+console.log(func(5, 6));
