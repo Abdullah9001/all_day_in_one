@@ -394,3 +394,10 @@ const func1 = function (a, b) {
   return a + b;
 };
 console.log(func1(5, 6));
+
+// function lekhar agei function declearation kora jay
+func2(8, 100);
+
+function func2(a, b) {
+  console.log(a * b);
+}
