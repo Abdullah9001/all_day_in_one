@@ -414,3 +414,10 @@ console.log(func3(80, 10));
 (function (a, b) {
   console.log(a - b);
 })(20, 15);
+
+//this is the paremaiter
+const func4 = function (a) {
+  return a * a;
+};
+
+console.log(func4(5));
