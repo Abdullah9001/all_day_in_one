@@ -401,3 +401,10 @@ func2(8, 100);
 function func2(a, b) {
   console.log(a * b);
 }
+
+// expressonal function e ta kora jay na
+
+var func3 = function (a, b) {
+  return a / b;
+};
+console.log(func3(80, 10));
