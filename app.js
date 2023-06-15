@@ -377,3 +377,8 @@ letter.forEach(function (value) {
   texts += value;
 });
 console.log(texts);
+
+const leeterItterator = letter.values();
+for (let d of leeterItterator) {
+  console.log(d);
+}
