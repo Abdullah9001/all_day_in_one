@@ -427,3 +427,10 @@ function func5(e, d) {
   return e + d;
 }
 console.log(func5(6, 7));
+
+function func6(g, h) {
+  return g + h;
+}
+let g = 20;
+let h = 15;
+console.log(func6(g, h));
