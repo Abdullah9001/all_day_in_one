@@ -445,6 +445,7 @@ console.log(func6(gg, hh));
 
 console.log(gg);
 
+// object are passed by refferance
 function func8(xx) {
   xx.one = 8;
   return xx.one * xx.two;
