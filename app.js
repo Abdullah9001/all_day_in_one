@@ -458,3 +458,20 @@ const ff = {
 
 console.log(func8(ff));
 console.log(ff);
+
+const personnnn = {
+  fulllName: function () {
+    return this.ffName + " " + this.llName;
+  },
+};
+
+const personnn1 = {
+  ffName: "Abdullah",
+  llName: "Jubayer",
+};
+const personnn2 = {
+  ffName: "Kawsar",
+  llName: "Ahmed",
+};
+
+console.log(personnnn.fulllName.call(personnn1, "Sirajganj", "Bangladesh"));
