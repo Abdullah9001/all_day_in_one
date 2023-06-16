@@ -475,3 +475,5 @@ const personnn2 = {
 };
 
 console.log(personnnn.fulllName.call(personnn1, "Bogura", "Bangladesh"));
+
+// done function call lesson
