@@ -114,7 +114,7 @@ persons1.play("well");
 persons2.play("bad");
 // Javascript class lesson done
 
-// Javscript Json Format
+// Javascript JSON Format
 const jsonData = `{
   "employees":[
   {"name": "John", "age": 25},
@@ -203,7 +203,7 @@ const myObject = {
   name: "Abdullah",
   age: 22,
   cars: [
-    { name: " Volbo", model: [" rome", " dilli", " soudi"] },
+    { name: " Volbo", model: [" Rome", " dilli", " sound"] },
     { name: " BMW", model: [" wr3", " bc5", " d7"] },
     { name: " Maruti", model: [" s123", " dil6", " soudi10"] },
   ],
@@ -238,7 +238,7 @@ console.log(person5.fullNames());
 const person6 = {
   name: "Abdullah ",
   age: 22,
-  city: " Bangladeash",
+  city: " Bangladesh",
 };
 
 document.getElementById("demo").innerHTML =
@@ -254,7 +254,7 @@ document.getElementById("demo2").innerHTML = text;
 const person7 = {
   name: "Abdullah",
   age: 22,
-  city: "Bangladeash",
+  city: "Bangladesh",
 };
 
 const objToArray = Object.values(person7);
@@ -300,7 +300,7 @@ person9.lang = "English";
 console.log(person9);
 console.log(person9.fullNames);
 
-// constractor object
+// constructor object
 function BioData(first, last, age, city) {
   (this.fName = first),
     (this.lName = last),
@@ -389,33 +389,33 @@ function func(a, b) {
 }
 console.log(func(984, 598));
 
-// function expresson
+// function expression
 const func1 = function (a, b) {
   return a + b;
 };
 console.log(func1(5, 6));
 
-// function lekhar agei function declearation kora jay
+// function lekhar agei function declaration kora jay
 func2(8, 100);
 
 function func2(a, b) {
   console.log(a * b);
 }
 
-// expressonal function e ta kora jay na
+// expressional function e ta kora jay na
 
 var func3 = function (a, b) {
   return a / b;
 };
 console.log(func3(80, 10));
 
-// you can write function this way
-// this is self invoking function
+//You can write the function this way
+//This is the self-invoking function
 (function (a, b) {
   console.log(a - b);
 })(20, 15);
 
-//this is the paremaiter
+//this is the parameter
 const func4 = function (a) {
   return a * a;
 };
