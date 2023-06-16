@@ -446,10 +446,12 @@ console.log(func6(gg, hh));
 console.log(gg);
 
 function func8(xx) {
-  return;
+  return xx.one * xx.two;
 }
 
 const ff = {
   one: 5,
   two: 5,
 };
+
+console.log(func8(ff));
