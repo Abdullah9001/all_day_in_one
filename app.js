@@ -421,3 +421,9 @@ const func4 = function (a) {
 };
 
 console.log(func4(5));
+
+function func5(e, d) {
+  e = e * 5;
+  return e + d;
+}
+console.log(func5(6, 7));
