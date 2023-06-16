@@ -442,3 +442,5 @@ function func7(gg, hh) {
 let gg = 20;
 let hh = 15;
 console.log(func6(gg, hh));
+
+console.log(gg);
