@@ -446,6 +446,7 @@ console.log(func6(gg, hh));
 console.log(gg);
 
 function func8(xx) {
+  xx.one = 8;
   return xx.one * xx.two;
 }
 
@@ -455,3 +456,4 @@ const ff = {
 };
 
 console.log(func8(ff));
+console.log(ff);
