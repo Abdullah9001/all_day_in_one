@@ -460,8 +460,8 @@ console.log(func8(ff));
 console.log(ff);
 
 const personnnn = {
-  fulllName: function () {
-    return this.ffName + " " + this.llName;
+  fulllName: function (city, country) {
+    return this.ffName + " " + this.llName + " " + city + " " + country;
   },
 };
 
