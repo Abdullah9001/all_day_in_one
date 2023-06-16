@@ -434,3 +434,11 @@ function func6(g, h) {
 let g = 20;
 let h = 15;
 console.log(func6(g, h));
+
+function func7(gg, hh) {
+  gg = gg * 3;
+  return gg + hh;
+}
+let gg = 20;
+let hh = 15;
+console.log(func6(gg, hh));
