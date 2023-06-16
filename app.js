@@ -474,4 +474,4 @@ const personnn2 = {
   llName: "Ahmed",
 };
 
-console.log(personnnn.fulllName.call(personnn1, "Sirajganj", "Bangladesh"));
+console.log(personnnn.fulllName.call(personnn1, "Bogura", "Bangladesh"));
