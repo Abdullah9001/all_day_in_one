@@ -444,3 +444,12 @@ let hh = 15;
 console.log(func6(gg, hh));
 
 console.log(gg);
+
+function func8(xx) {
+  return;
+}
+
+const ff = {
+  one: 5,
+  two: 5,
+};
