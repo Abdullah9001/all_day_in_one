@@ -70,7 +70,7 @@ const helloWorld = () => {
 
 console.log(helloWorld());
 
-// you can also print like this way
+// you can also print this way
 const helloPrint = () => "Hello World";
 
 // Constactor class
@@ -112,7 +112,7 @@ const persons2 = new Person("Rakib", 24);
 
 persons1.play("well");
 persons2.play("bad");
-// Javscript class lesson done
+// Javascript class lesson done
 
 // Javscript Json Format
 const jsonData = `{
