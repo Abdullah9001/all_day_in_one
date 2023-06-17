@@ -89,7 +89,7 @@ class Cars2 {
   }
 }
 const maruti = new Cars2("Maruti", 2005);
-maruti.run("200 km per hour");
+maruti.run("200 km per hour.");
 // js class lesson done
 
 class Bike {
@@ -101,5 +101,16 @@ class Bike {
   }
 }
 
-const aphecy = new Bike("Aphecy");
-console.log(aphecy.present());
+class Model extends Bike {
+  constructor(brand, mod) {
+    super(brand);
+    this.model = mod;
+  }
+  show() {
+    return this.present() + " it is " + this.model;
+  }
+}
+
+const model = new Model("Aphecy", "an old model.");
+
+console.log(model.show());
