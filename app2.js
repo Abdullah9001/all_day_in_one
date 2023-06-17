@@ -35,3 +35,16 @@ add();
 add();
 add();
 console.log(counter);
+
+function add2() {
+  let counter = 0;
+  function plus() {
+    counter += 1;
+  }
+  plus();
+  plus();
+  plus();
+  plus();
+  return counter;
+}
+console.log(add2());
