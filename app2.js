@@ -61,7 +61,8 @@ console.log(add3());
 
 class Cars {
   constructor(name, year) {
-    (this.name = name), (this.year = year);
+    this.name = name;
+    this.year = year;
   }
   age(x) {
     return x - this.year;
@@ -77,3 +78,31 @@ const age = "My car is" + " " + suzuki.age(year) + " " + "years old";
 
 console.log(suzuki);
 console.log(age);
+
+class Cars2 {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+  run(speed) {
+    console.log(this.name + " is running in " + speed);
+  }
+}
+const maruti = new Cars2("Maruti", 2005);
+maruti.run("200 km per hour");
+
+class Persons {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+  play(status) {
+    console.log(`${this.name} is playing ${status}`);
+  }
+}
+
+const persons3 = new Persons("Sakib", 22);
+const persons4 = new Persons("Rakib", 24);
+
+persons3.play("well");
+persons4.play("bad");
