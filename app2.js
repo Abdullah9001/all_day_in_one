@@ -52,7 +52,7 @@ console.log(add2());
 function temporary() {
   let counter = 0;
   return function plus() {
-    counter += 1;
+    return (counter += 1);
   };
 }
 
