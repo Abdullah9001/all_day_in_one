@@ -48,3 +48,13 @@ function add2() {
   return counter;
 }
 console.log(add2());
+
+function temporary() {
+  let counter = 0;
+  return function plus() {
+    counter += 1;
+  };
+}
+
+const add3 = temporary();
+console.log(add3());
