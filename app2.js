@@ -91,3 +91,15 @@ class Cars2 {
 const maruti = new Cars2("Maruti", 2005);
 maruti.run("200 km per hour");
 // js class lesson done
+
+class Bike {
+  constructor(brand) {
+    this.carName = brand;
+  }
+  present() {
+    return "I have a " + this.carName;
+  }
+}
+
+const aphecy = new Bike("Aphecy");
+console.log(aphecy.present());
