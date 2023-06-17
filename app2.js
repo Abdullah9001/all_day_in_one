@@ -58,3 +58,22 @@ function temporary() {
 
 const add3 = temporary();
 console.log(add3());
+
+class Cars {
+  constructor(name, year) {
+    (this.name = name), (this.year = year);
+  }
+  age(x) {
+    return x - this.year;
+  }
+}
+
+const dates = new Date();
+const year = dates.getFullYear();
+
+const suzuki = new Cars("Suzuki", 2012);
+
+const age = "My car is" + " " + suzuki.age(year) + " " + "years old";
+
+console.log(suzuki);
+console.log(age);
