@@ -1,3 +1,5 @@
+console.log("Start another app file from here");
+
 const number = [1, 2, 3, 4, 5, 6, 7, 7, 7, 7, 8, 9];
 const numbers = [1, 2, 3, 4, 5];
 console.dir(number);
@@ -23,3 +25,13 @@ console.log(numbers.length);
 
 //another paknami shuru
 console.log(numbers.unshift(9));
+
+let counter = 0;
+
+function add() {
+  counter += 1;
+}
+add();
+add();
+add();
+console.log(counter);
