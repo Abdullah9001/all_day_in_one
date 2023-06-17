@@ -479,3 +479,6 @@ console.log(personnnn.fulllName.call(personnn1, "Sirajganj", "Bangladesh"));
 // done function call lesson
 
 console.log(personnnn.fulllName.apply(personnn2, ["Bogura", "Bangladesh"]));
+
+const number3 = [2, 4, 56, 6, 7, 8, 5, 54, 889, 6, 7, 4, 7, 88, 8];
+console.log(Math.max(...number3));
