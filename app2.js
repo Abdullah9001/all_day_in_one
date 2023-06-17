@@ -114,3 +114,5 @@ class Model extends Bike {
 const model = new Model("Aphecy", "an old model.");
 
 console.log(model.show());
+
+// And thats it for today
