@@ -116,3 +116,5 @@ const model = new Model("Aphecy", "an old model.");
 console.log(model.show());
 
 // And thats it for today
+
+console.log("hello");
